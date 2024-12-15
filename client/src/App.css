@@ -1,0 +1,18 @@
+@media print {
+  body {
+    width: 80mm; /* Thermal printer paper width */
+    font-family: 'Courier New', monospace; /* Monospace font for alignment */
+    font-size: 12px; /* Adjust font size to fit the content */
+    margin: 0;
+    padding: 0;
+  }
+
+  pre {
+    margin: 0;
+    padding: 0;
+  }
+
+  .invoice-details {
+    line-height: 1.5;
+  }
+}
